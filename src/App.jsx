@@ -28,7 +28,7 @@ function App() {
  return (
   <Todoprovider value={{ todos, addTodo, updatedTodo, deleteTodo, toggleComplete }}>
     <div
-      className="min-h-screen py-8 bg-cover bg-center"
+      className="min-h-screen py-8 bg-center h-screen bg-cover bg-center"
       style={{ backgroundImage: 'url(https://images.playground.com/86f69f14d9fe499794b4fe9d1cb952af.jpeg)' }}
     >
       <div className="w-full max-w-2xl mx-auto shadow-lg rounded-lg px-6 py-5 text-white bg-gray-800 bg-opacity-90">
